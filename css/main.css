@@ -1,0 +1,202 @@
+/* =========================
+    Sitewide Styles
+   ========================*/
+
+/* interesting because it selects everything, does not seam to work maybe I did it wrong*/
+* {
+	color: #FFFFFF;
+	font-family: Quicksand,'Gothic Round', sans-serif;
+	font-size: 1.25em;
+}
+body{
+color: #FFFFFF;
+margin: 0;
+}
+sup {
+	position: relative;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: .4em;
+	left:-21px;
+	top:-8px;
+}
+
+.middle sup{
+	color: #FE7E00;
+}
+/*  emphasis words*/
+.orange {
+	font-weight: bold;
+	display: inline-block;
+}
+
+.juice {
+	font-weight: lighter;
+	display: inline-block;
+}
+
+.middle .orange, .middle .juice {
+color: #FE7E00;
+}
+.web, .app {
+	font-weight: bold;
+	display: inline-block;
+	color: #7ACCC8;
+}
+
+
+/*==============================
+	Top Section 
+===============================*/
+.top {
+	background-color: #FE7E00;
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+	border-bottom: 5px solid #E06E18;
+}
+.logo {
+	float: left;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.logo img {
+	border-radius: 10px;
+	height: 70px;
+	position: relative;
+
+	}
+.logo h1 {
+	display:inline-block;
+	font-size: 1.11em;
+}
+
+.topNav {
+	float: right;
+	margin-right: 50px;
+} 
+.topNav li {
+	display: inline-block;
+	/* creates 5px of padding between content and top boarder and 10px content and right border*/
+	padding: 5px 10px 0 0;
+	/*aligns the contet vertically*/
+	vertical-align:bottom;
+	/*creates 5px of margin between top and right boarders and external elements.*/
+	margin: 5px 5px 0 0;
+	/*sets font size*/
+	font-size: 11px;
+}
+.topNav li a {
+	text-decoration: none;
+}
+/*================================
+	Middle Section - Search Box
+=================================*/
+
+.search {
+	float: right;
+  	position: relative;
+  	color: #aaa;
+  	width: 25%;
+	margin-right: 50px;
+}
+.search input {
+	padding: 0 0 0 25px;
+	font-size: 16px;
+	line-height: 27px;
+	border-style: none;
+	width: 100%;
+	background: #f0f0f0;
+}
+.search .fa-search { 
+	text-indent: 85%;
+	position: absolute;
+	top: 2.5px;
+	left: 10px;
+	color: #aaa;
+	font-size: 16px;
+}
+.middle {
+	color: #FE7E00;
+}
+.middle .content {
+	 display: inline-block;	
+ 	vertical-align: top;
+}
+ .img img {
+	height: 370px;
+	float: left;
+
+	margin: 90px 5px 0 90px;
+}
+.pitch {
+	position: relative;
+	width: 55%;
+	color: #FE7E00;
+	float: right;
+	margin-right: 50px;
+	font-size: 1em;
+	font-weight: lighter;
+	
+}
+.pitch sup {
+	left: -10px;
+}
+
+/*select elements in class .searchButton*/
+.buttons {
+		
+	text-align: center;
+
+	font-size: .8em;
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+
+}
+
+.buttons .left {
+	background-color: #FE7E00;
+
+}
+
+.buttons .right {
+	background-color: #7ACCC8;
+	color: #fff;
+}
+/*selects buttons in elements in .searchButton classs*/
+.buttons button{
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 27px;
+	margin: 17px 6px;
+	padding: 0 12px;
+	display: inline-block;
+	cursor: pointer;
+	width: 47%;
+	height: 40px;
+
+}
+
+/*selects buttons in elements in .searchButton classs when hoverd over gives it a solid gray brdere, gray background adn a n opaque shadow*/
+.buttons button:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+}
+
+
+/*==========================================
+	Bottom Section - Site Links
+===========================================*/
+/* selects elements in class bottomLinks puts it at the bottom permenantly and it takes up the whole width of its container*/
+.bottom {
+	bottom: !important;
+	margin-top: 50px;
+	background-color: #7ACCC8;
+	width: 100%;
+	height: 20%;
+
+}
+
